@@ -26,6 +26,14 @@
     <string name="soc_model_qualcomm">高通</string>
     <string name="soc_model_mediatek">MTK</string>
 
+    <!-- Statusbar category -->
+    <string name="status_bar_category_title">状态栏</string>
+
+    <!-- Statusbar Lyric -->
+    <string name="status_bar_lyric_title">状态栏歌词</string>
+    <string name="status_bar_lyric_summary">显示状态栏歌词（需要应用支持）</string>
+    <string name="status_bar_show_lyric_title">启用状态栏歌词</string>
+
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">在您的平板电脑正面找到指纹传感器。</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">在您的设备正面找到指纹传感器。</string>
