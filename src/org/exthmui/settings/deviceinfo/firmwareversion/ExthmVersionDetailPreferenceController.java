@@ -74,7 +74,7 @@ public class ExthmVersionDetailPreferenceController extends BasePreferenceContro
 
     @Override
     public CharSequence getSummary() {
-	return SystemProperties.get(KEY_EXTHM_VERSION_PROP, mContext.getString(R.string.unknown))+ "|" 
+	return SystemProperties.get(KEY_EXTHM_VERSION_PROP, mContext.getString(R.string.unknown))+ " | " 
         + SystemProperties.get(KEY_EXTHM_BRANCH_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | " 
         + SystemProperties.get(KEY_EXTHM_BUILD_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase();
     }
