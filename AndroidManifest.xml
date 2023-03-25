@@ -4542,6 +4542,20 @@
             </intent-filter>
         </activity>
 
+        <!-- Show regulatory info (from settings item or dialing "*#07#") -->
+        <activity
+            android:name="org.exthmui.settings.RegulatoryInfoDisplayActivity"
+            android:label="@string/regulatory_labels"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.settings.SHOW_REGULATORY_INFO" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
