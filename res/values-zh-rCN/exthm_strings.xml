@@ -25,6 +25,7 @@
     <!-- SOC Manufacture -->
     <string name="soc_model_qualcomm">高通</string>
     <string name="soc_model_mediatek">MTK</string>
+    <string name="soc_model_google">谷歌</string>
 
     <!-- Statusbar category -->
     <string name="status_bar_category_title">状态栏</string>

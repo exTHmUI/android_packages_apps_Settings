@@ -25,6 +25,7 @@
     <!-- SOC Manufacture -->
     <string name="soc_model_qualcomm">Qualcomm</string>
     <string name="soc_model_mediatek">MTK</string>
+    <string name="soc_model_google">Google</string>
 
     <!-- Statusbar category -->
     <string name="status_bar_category_title">Statusbar</string>
