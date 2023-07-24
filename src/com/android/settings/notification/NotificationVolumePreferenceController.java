@@ -31,6 +31,7 @@ import android.provider.DeviceConfig;
 import android.service.notification.NotificationListenerService;
 
 import androidx.lifecycle.OnLifecycleEvent;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.config.sysui.SystemUiDeviceConfigFlags;
 import com.android.settings.R;
