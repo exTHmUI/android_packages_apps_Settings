@@ -128,7 +128,7 @@ public class RingVolumePreferenceController extends
         return (hints & NotificationListenerService.HINT_HOST_DISABLE_CALL_EFFECTS) != 0
                 || (hints & NotificationListenerService.HINT_HOST_DISABLE_EFFECTS) != 0
                 || ((hints & NotificationListenerService.HINT_HOST_DISABLE_NOTIFICATION_EFFECTS)
-                != 0 && ringNotificationAliased);
+                != 0 && !notificationSeparated);
     }
 
 

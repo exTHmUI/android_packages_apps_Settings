@@ -40,7 +40,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import java.util.Set;
 
 /**
- * Update notification volume icon in Settings in response to user adjusting volume
+ * Update notification volume icon in Settings in response to user adjusting volume.
  */
 public class NotificationVolumePreferenceController extends
         RingerModeAffectedVolumePreferenceController {
@@ -50,9 +50,6 @@ public class NotificationVolumePreferenceController extends
 
     private final RingReceiver mReceiver = new RingReceiver();
     private final H mHandler = new H();
-
-    private final boolean mRingNotificationAliased;
-
 
     public NotificationVolumePreferenceController(Context context) {
         this(context, KEY_NOTIFICATION_VOLUME);
